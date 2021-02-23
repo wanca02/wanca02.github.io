@@ -1,0 +1,65 @@
+/* Split the screen in half */
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  width: 40%;
+  background-color: rgba(255, 0, 0, 0.473);
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  width: 60%;
+  background-color: rgba(17, 17, 17, 0.329);
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.justifyLeft{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  text-align: justify;
+  width: 80%;
+}
+.justifyRight{
+  position: absolute;
+  left: 10%;
+  text-align: justify;
+  width: 80%;
+}
+.none{
+  list-style-type: none;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.788);
+  
+}
+.font-p{
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.788);
+}
+.none li{
+  margin-bottom: 30px;
+}
