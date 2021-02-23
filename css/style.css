@@ -63,3 +63,31 @@
 .none li{
   margin-bottom: 30px;
 }
+.none li div:first-child{
+  margin-bottom: 5px;
+}
+.footer{
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer a{
+  transition-duration: 0.4s;
+  border-radius: 8%;
+  margin-left: 10px;
+}
+
+.footer a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footer a:hover, a:active {
+  background-color: red;
+}
