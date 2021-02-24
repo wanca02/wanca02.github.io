@@ -10,7 +10,11 @@
 .left {
   left: 0;
   width: 40%;
-  background-color: rgba(54, 165, 72, 0.473);
+  background-image: url("../images/back.jpg");  
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 40% 130%;
+  background-position: 0px -130px;
 }
 
 .right {
@@ -21,8 +25,8 @@
 
 .centered {
   position: absolute;
-  top: 15%;
-  left: 50%;
+  top: 30%;
+  left: 70%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -34,7 +38,7 @@
 
 .justifyLeft{
   position: absolute;
-  top: 30%;
+  top: 43%;
   left: 10%;
   text-align: justify;
   width: 80%;
@@ -53,7 +57,7 @@
 }
 .font-p{
   font-size: 20px;
-  color: rgba(0, 0, 0, 0.788);
+  color: rgba(248, 246, 246, 0.932);
 }
 .none li{
   margin-bottom: 30px;
