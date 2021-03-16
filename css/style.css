@@ -31,9 +31,12 @@
   text-align: center;
 }
 
-.centered img {
+.img-profile {
   width: 150px;
   border-radius: 50%;
+}
+.container img{
+  width: 40px;
 }
 
 .justifyLeft{
@@ -84,12 +87,11 @@
 }
 
 .footer a:link, a:visited {
-  background-color: #3885c4b9;
-  color: white;
-  padding: 7px 16px;
+  color: rgba(255, 255, 255, 0.788);
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-size:30px;
 }
 
 .footer a:hover, a:active {
