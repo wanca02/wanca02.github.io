@@ -87,7 +87,7 @@
 }
 
 .footer a:link, a:visited {
-  color: rgba(255, 255, 255, 0.788);
+  color: rgba(255, 255, 255, 0.61);
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -95,6 +95,6 @@
 }
 
 .footer a:hover, a:active {
-  background-color: rgba(27, 209, 133, 0.747);
+  color: rgb(255, 255, 255);
 }
 
