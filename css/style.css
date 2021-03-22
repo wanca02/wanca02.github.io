@@ -34,6 +34,7 @@
 .img-profile {
   width: 150px;
   border-radius: 50%;
+  border: 7px solid rgba(255, 255, 255, 0.623);
 }
 .container img{
   width: 40px;
