@@ -106,3 +106,25 @@
   color: rgb(255, 255, 255);
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .row:first-child{
+    height: 600px;
+    margin-bottom: 20px;
+  }
+  .row:last-child{
+    height: 800px;
+  }
+  .split{
+    position:relative;
+  }
+  .left{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 130%;
+  }
+  
+  .right{
+    width: 100%;
+  }
+}
