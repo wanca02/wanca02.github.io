@@ -140,6 +140,9 @@
   .none{
     font-size: 18px;
   }
+  .none li{
+    margin-left: -20px;
+  }
   .none li div:last-child{
     font-size: 15px;
   }
