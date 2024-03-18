@@ -106,8 +106,6 @@
   color: rgb(255, 255, 255);
 }
 
-<<<<<<< HEAD
-=======
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   body{
@@ -148,6 +146,4 @@
   .none li div:last-child{
     font-size: 15px;
   }
-
 }
->>>>>>> e6e5296 (phone version04)
