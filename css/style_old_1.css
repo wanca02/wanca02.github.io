@@ -1,14 +1,8 @@
-body {
-  font-family: 'Times New Roman', Times, serif, sans-serif;
+.style01{
+  font-size: 16px !important;
 }
-.experience {
-  margin-bottom: 20px;
-}
-.experience h2{
-  color: rgba(0, 0, 0, 0.801);
-}
-.project {
-  margin-left: 20px;
+.style01 ul{
+  list-style-type: none !important;
 }
 .split {
   height: 100%;
